@@ -11,7 +11,7 @@ COPY . .
 RUN go build -o /app/go-streamer . 
 
 
-FROM alpine:edge
+FROM ubuntu:jammy
 
 WORKDIR /app/
 

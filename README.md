@@ -28,7 +28,7 @@ go-streamer provides two primary commands: `send` and `receive`. The `--help` fl
 Example:
 
 ```sh
-export export CONFIG_PROPERTIES_FILE=/path/to/client.properties
+export CONFIG_PROPERTIES_FILE=/path/to/client.properties
 export LOG_FILE_PATH=/path/to/logfile
 export CONFIG_TOPIC_NAME=<name_of_the_topic>
 

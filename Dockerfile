@@ -17,4 +17,4 @@ WORKDIR /app/
 
 COPY --from=build /app/go-streamer /app/go-streamer 
 
-CMD ["./go-streamer"]
+ENTRYPOINT ["./go-streamer"]
